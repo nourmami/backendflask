@@ -1,0 +1,5 @@
+Flask==2.2.2
+keras==2.9.0
+Keras-Preprocessing==1.1.2
+tensorflow
+tensorflow-addons==0.20.0
