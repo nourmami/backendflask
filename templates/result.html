@@ -1,8 +1,17 @@
 <!doctype html>
 <html>
-<body>
-    <img src="{{ url_for('static', filename='temp.jpg') }}" alt="Example Image">
 
-	<h3> This Driver is {{ prediction }}</h3>
+<style type="text/css">
+	body{
+		margin-top: 80px;
+  background-color: #041218;
+  color: white;
+  text-align: center;
+	}
+</style>
+<body>
+    <img style="align-content: center;" src="{{ url_for('static', filename='temp.jpg') }}" alt="Example Image">
+
+	<h2> This Driver is {{ prediction }}</h2>
 </body>
 </html>
